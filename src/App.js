@@ -1,11 +1,10 @@
 import './App.css';
-import image from './image.jpg'
+import BackImage from './BackImage';
 
 function App() {
   return (
     <div> 
-      <img src={image} alt='shopping' />
-      <h1>Grocery List</h1>
+    <BackImage />
     </div>
   );
 }
