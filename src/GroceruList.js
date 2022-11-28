@@ -10,6 +10,12 @@ export class GroceryList extends Component {
     this.setState({userInput:e})
   }
 
+  addItem(input){
+    let listArray = this.state.shoppingList;
+    listArray.push(input);
+    this.setState({shoppingList: listArray, userInput: ''})
+  }
+
   render() {
     return(
       <div>
