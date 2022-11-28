@@ -6,7 +6,7 @@ function App() {
   return (
     <div> 
      <FrontImage />
-    <h1 className='photo'>Grocery List</h1>
+    <h1 className='app'>Grocery List</h1>
     <ImageTwo />
     </div>
   );

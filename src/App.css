@@ -1,6 +1,5 @@
-.photo {
-  background-color: white;
-  min-height: 80vh;
-  width: 400%;
-  margin-top: 20px auto;
+.app {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
 }
