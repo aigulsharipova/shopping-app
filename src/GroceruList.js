@@ -29,8 +29,8 @@ export class GroceryList extends Component {
           <button onClick={() => this.addItem(this.state.userInput)}>ADD</button>
           </div>
           <ul>
-            {this.state.shoppingList.map((item) => (
-              <li>{item}</li>
+            {this.state.shoppingList.map((item, index) => (
+              <li key={index}>{item}</li>
             ))}
           </ul>
 
