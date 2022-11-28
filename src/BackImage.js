@@ -2,7 +2,7 @@ import backgroundImage from './image.jpg'
 
 function GroceryImage(){
   return (
-<img src={backgroundImage} alt='shopping' />
+<img src={backgroundImage} alt='shopping' className='backImage'/>
   )
 }
 

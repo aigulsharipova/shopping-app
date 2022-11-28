@@ -1,10 +1,13 @@
 import './App.css';
-import BackImage from './BackImage';
+import FrontImage from './FrontImage';
+import ImageTwo from './ImageTwo';
 
 function App() {
   return (
     <div> 
-    <BackImage />
+     <FrontImage />
+    <h1>Grocery List</h1>
+    <ImageTwo />
     </div>
   );
 }
