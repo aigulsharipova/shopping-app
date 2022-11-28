@@ -1,5 +1,9 @@
 .app {
-  margin: auto;
-  width: 20%;
-  padding: 10px;
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 40px;
 }
