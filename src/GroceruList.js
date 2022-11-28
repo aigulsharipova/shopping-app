@@ -7,7 +7,7 @@ export class GroceryList extends Component {
   render() {
     return(
       <div>
-      <input />
+      <input placeholder="What do you want to buy?"/>
     </div>
     )
   
