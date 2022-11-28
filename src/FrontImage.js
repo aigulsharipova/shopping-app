@@ -2,7 +2,9 @@ import frontImageFirst from './photo.jpg'
 
 function ImageFirst(){
   return (
-<img src={frontImageFirst} alt='frontimage' width="300px"/>
+    <div className='photo'>
+      <img src={frontImageFirst} alt='frontimage' width="300px"/>
+    </div>
   )
 }
 
