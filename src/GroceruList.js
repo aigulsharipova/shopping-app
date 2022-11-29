@@ -16,6 +16,10 @@ export class GroceryList extends Component {
     this.setState({shoppingList: listArray, userInput: ''})
   }
 
+  crosseWord(event) {
+    const li=event.target;
+  }
+
   render() {
     return(
       <div>
@@ -30,7 +34,7 @@ export class GroceryList extends Component {
           </div>
           <ul>
             {this.state.shoppingList.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li onClick={this.crosseWord} key={index}>{item}</li>
             ))}
           </ul>
 
