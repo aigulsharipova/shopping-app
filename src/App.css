@@ -7,3 +7,7 @@
 h1 {
   font-size: 40px;
 }
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
